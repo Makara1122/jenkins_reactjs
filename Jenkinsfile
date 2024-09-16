@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'REPO_URL', defaultValue: 'http://git.istad.co/cstad-ite-2nd-generation/fswd/alumni/alumni-ui.git', description: 'Repository URL')
+        string(name: 'REPO_URL', defaultValue: 'https://github.com/Makara1122/jenkins_reactjs.git', description: 'Repository URL')
         string(name: 'CONTAINER_NAME', defaultValue: 'nextjs-app', description: 'Docker Container Name')
         string(name: 'DEPLOY_PORT', defaultValue: '3000', description: 'Port for Deployment')
     }

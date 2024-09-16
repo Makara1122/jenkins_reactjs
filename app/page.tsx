@@ -20,7 +20,7 @@ Makara Hello Nextjs{" "}
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>===================.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
